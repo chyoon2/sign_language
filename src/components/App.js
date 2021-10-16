@@ -22,7 +22,7 @@ class App extends React.Component {
             onClick={() => this.onLanguageChange("dutch")}
           />
         </div>
-        {this.state.language}
+
         <UserCreate />
       </div>
     );
